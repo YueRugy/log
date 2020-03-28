@@ -1,6 +1,10 @@
 package tail
 
-import "github.com/hpcloud/tail"
+import (
+	"fmt"
+	"github.com/hpcloud/tail"
+	"path/filepath"
+)
 
 var t *tail.Tail
 
@@ -15,6 +19,7 @@ func Init(fileName string) (err error) {
 		Poll:      true,
 		Follow:    true,
 	}
+	fmt.Println(filepath.Abs(fileName))
 	t, err = tail.TailFile(fileName, config)
 
 	return err
