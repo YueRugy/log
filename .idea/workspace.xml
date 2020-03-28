@@ -4,7 +4,7 @@
     <list default="true" id="d4b48ddb-b4f4-4eed-9da6-4d6525683eec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kfaka/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/kfaka/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build github.com/yueRugy/log/kfaka">
     <configuration name="go build github.com/yueRugy/log" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="log" />
       <working_directory value="$PROJECT_DIR$" />
@@ -50,8 +50,17 @@
       <package value="github.com/yueRugy/log" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/yueRugy/log/kfaka" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="log" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/kfaka/main.go" />
+      <package value="github.com/yueRugy/log/kfaka" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/yueRugy/log/kfaka" />
         <item itemvalue="Go Build.go build github.com/yueRugy/log" />
       </list>
     </recent_temporary>
@@ -64,21 +73,41 @@
     <proxy>direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1366" height="215" key="GridCell.Tab.0.bottom" timestamp="1585395345079">
+    <state x="178" y="27" width="1000" height="741" key="#Inspections" timestamp="1585395990714">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585395345079" />
-    <state width="1366" height="215" key="GridCell.Tab.0.center" timestamp="1585395345078">
+    <state x="178" y="27" width="1000" height="741" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1585395990714" />
+    <state width="1366" height="171" key="GridCell.Tab.0.bottom" timestamp="1585397367348">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585395345078" />
-    <state width="1366" height="215" key="GridCell.Tab.0.left" timestamp="1585395345078">
+    <state width="1366" height="171" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585397367348" />
+    <state width="1366" height="171" key="GridCell.Tab.0.center" timestamp="1585397367348">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585395345078" />
-    <state width="1366" height="215" key="GridCell.Tab.0.right" timestamp="1585395345079">
+    <state width="1366" height="171" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585397367348" />
+    <state width="1366" height="171" key="GridCell.Tab.0.left" timestamp="1585397367347">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585395345079" />
+    <state width="1366" height="171" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585397367347" />
+    <state width="1366" height="171" key="GridCell.Tab.0.right" timestamp="1585397367348">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="171" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585397367348" />
+    <state width="1366" height="215" key="GridCell.Tab.1.bottom" timestamp="1585397095510">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
+    <state width="1366" height="215" key="GridCell.Tab.1.center" timestamp="1585397095510">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
+    <state width="1366" height="215" key="GridCell.Tab.1.left" timestamp="1585397095510">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
+    <state width="1366" height="215" key="GridCell.Tab.1.right" timestamp="1585397095510">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
   </component>
 </project>
