@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fileNmae := "./myLog"
+	fileName := "./myLog"
 	config := tail.Config{
 		Location:    &tail.SeekInfo{Offset: 0, Whence: 2},
 		ReOpen:      true,
@@ -19,7 +19,7 @@ func main() {
 		Logger:      nil,
 	}
 
-	tails, err := tail.TailFile(fileNmae, config)
+	tails, err := tail.TailFile(fileName, config)
 	if err != nil {
 		fmt.Println("tail file failed ", err)
 	}
@@ -31,7 +31,7 @@ func main() {
 	for {
 		line, ok = <-tails.Lines
 		if !ok {
-			fmt.Printf("tail file close reopen ,fileNmae =%s", fileNmae)
+			fmt.Printf("tail file close reopen ,fileNmae =%s", fileName)
 		}
 		fmt.Println(line.Text)
 	}

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b48ddb-b4f4-4eed-9da6-4d6525683eec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logAgent/kfaka/kfaka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logAgent/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logAgent/tail/tail.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kfaka/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/kfaka/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myLog" beforeDir="false" afterPath="$PROJECT_DIR$/myLog" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -33,7 +37,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -41,7 +45,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/yueRugy/log/kfaka">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build github.com/yueRugy/log" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="log" />
       <working_directory value="$PROJECT_DIR$" />
@@ -58,10 +62,26 @@
       <package value="github.com/yueRugy/log/kfaka" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="log" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/logAgent/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tail.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="log" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/logAgent/tail/tail.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/yueRugy/log/kfaka" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build github.com/yueRugy/log" />
+        <item itemvalue="Go Build.go build tail.go" />
+        <item itemvalue="Go Build.go build github.com/yueRugy/log/kfaka" />
       </list>
     </recent_temporary>
   </component>
@@ -77,37 +97,56 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="178" y="27" width="1000" height="741" key="#Inspections/0.27.1366.741@0.27.1366.741" timestamp="1585395990714" />
-    <state width="1366" height="171" key="GridCell.Tab.0.bottom" timestamp="1585397367348">
+    <state x="297" y="33" width="761" height="726" key="#go_build_tail.go" timestamp="1585401742398">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="171" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585397367348" />
-    <state width="1366" height="171" key="GridCell.Tab.0.center" timestamp="1585397367348">
+    <state x="297" y="33" width="761" height="726" key="#go_build_tail.go/0.27.1366.741@0.27.1366.741" timestamp="1585401742398" />
+    <state width="1366" height="212" key="GridCell.Tab.0.bottom" timestamp="1585402645088">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="171" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585397367348" />
-    <state width="1366" height="171" key="GridCell.Tab.0.left" timestamp="1585397367347">
+    <state width="1366" height="212" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585402645088" />
+    <state width="1366" height="212" key="GridCell.Tab.0.center" timestamp="1585402645087">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="171" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585397367347" />
-    <state width="1366" height="171" key="GridCell.Tab.0.right" timestamp="1585397367348">
+    <state width="1366" height="212" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1585402645087" />
+    <state width="1366" height="212" key="GridCell.Tab.0.left" timestamp="1585402645086">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="171" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585397367348" />
-    <state width="1366" height="215" key="GridCell.Tab.1.bottom" timestamp="1585397095510">
+    <state width="1366" height="212" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1585402645086" />
+    <state width="1366" height="212" key="GridCell.Tab.0.right" timestamp="1585402645087">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
-    <state width="1366" height="215" key="GridCell.Tab.1.center" timestamp="1585397095510">
+    <state width="1366" height="212" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1585402645087" />
+    <state width="1366" height="212" key="GridCell.Tab.1.bottom" timestamp="1585402638224">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
-    <state width="1366" height="215" key="GridCell.Tab.1.left" timestamp="1585397095510">
+    <state width="1366" height="212" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1585402638224" />
+    <state width="1366" height="212" key="GridCell.Tab.1.center" timestamp="1585402638224">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
-    <state width="1366" height="215" key="GridCell.Tab.1.right" timestamp="1585397095510">
+    <state width="1366" height="212" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1585402638224" />
+    <state width="1366" height="212" key="GridCell.Tab.1.left" timestamp="1585402638223">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1366" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1585397095510" />
+    <state width="1366" height="212" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1585402638223" />
+    <state width="1366" height="212" key="GridCell.Tab.1.right" timestamp="1585402638224">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1366" height="212" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1585402638224" />
+    <state x="393" y="27" width="569" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585402614966">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="393" y="27" width="569" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1585402614966" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/logAgent/main.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
